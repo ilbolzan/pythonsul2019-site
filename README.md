@@ -1,10 +1,10 @@
-# [pythonsu2018-site] (http://pythonsul.org)
+# [pythonsu2019-site] (http://pythonsul.org)
 
 [![Build/Test](https://img.shields.io/travis/pythonsul/pythonsul2018-site/master.svg?label=travis-ci)][travis]
 
-[travis]: https://travis-ci.org/pythonsul/pythonsul2018-site
+[travis]: https://travis-ci.org/pythonsul/pythonsul2019-site
 
-Python Sul 2018 website (http://pythonsul.org/)
+Python Sul 2019 website (http://pythonsul.org/)
 
 ## Requirements
 1. NodeJS
