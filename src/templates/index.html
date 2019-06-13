@@ -5,19 +5,18 @@ ${ require('templates/partials/header.html') }
         <div class="jumbotron-container">
           <div class="jumbotron">
             <div class="jumbotron__main">
-              <img class="jumbotron__logo d-none d-md-block" height="auto" src="${ require('img/PythonSul2018-NomedoEvento.svg') }" alt="Logo Python Sul 2018">
-              <img class="jumbotron__logo d-md-none" height="100%" src="${ require('img/PythonSul2018-NomedoEvento.svg') }" alt="Logo Python Sul 2018">
-              <a href="#" disabled class="pybr-button--blue d-none d-sm-block" style="margin: 10px 0">
-                Ingressos
-                <strong class="d-block">ESGOTADOS</strong>
+              <img class="jumbotron__logo d-none d-md-block" height="auto" src="${ require('img/PythonSul2019.svg') }" alt="Logo Python Sul 2019">
+              <img class="jumbotron__logo d-md-none" height="100%" src="${ require('img/PythonSul2019.svg') }" alt="Logo Python Sul 2019">
+              <a target="_blank" href="https://www.eventbrite.com.br/e/python-sul-2019-tickets" class="pybr-button--dark d-none d-sm-block">
+                <strong>Ingressos</strong>
               </a>
-              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdi_0LWcQbpLbr6G8pGUI43aDxrj6hAVU29vwvR88vS4N_r6g/viewform" class="pybr-button--light d-none d-sm-block">
+              <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdi_0LWcQbpLbr6sdfsdf/viewform" class="pybr-button--light d-none d-sm-block">
                 Inscrições tutoriais
               </a>
             </div>
             <div class="jumbotron__side">
-              <img class="d-none d-sm-block" width="100%" src="${ require('img/PythonSul2018-HercilioLuz.svg') }" alt="de 6 a 8 de Abril de 2018 em Florianópolis, Santa Catarina">
-              <img class="d-sm-none pybr-date" src="${ require('img/PythonSul2018-HercilioLuz.svg') }" alt="de 6 a 8 de Abril de 2018 em Florianópolis, Santa Catarina">
+              <img class="d-none d-sm-block" width="100%" src="${ require('img/PythonSul2019-HercilioLuz.svg') }" alt="de 23 a 25 de Julho de 2019 em Curitiba, Paraná">
+              <img class="d-sm-none pybr-date" src="${ require('img/PythonSul2019-HercilioLuz.svg') }" alt="de 23 a 25 de Julho de 2019 em Curitiba, Paraná">
             </div>
           </div>
         </div>
@@ -30,14 +29,11 @@ ${ require('templates/partials/header.html') }
           <article class="about__article--left">
             <header>
               <h1 class="about__article__section-title--left">
-                FLORIPA/SC
+                CURITIBA / PR
               </h1>
             </header>
             <p class="about__article__body">
-              Sede da <a href="http://2016.pythonbrasil.org.br/">Python Brasil 12</a>, <a href="http://scipyla.org/conf/2016/">SciPy Latin America 2016</a> e de uma incrível <a href="http://floripa.sc.python.org.br/">comunidade de Python</a> local, Florianópolis é conhecida por sua expansão na área de tecnologia e sua beleza natural, contando com um conjunto de 43 belíssimas praias. Esse potencial turistico da região coloca a conferência em uma esfera de muita expectativa.
-            </p>
-            <p>
-              Tá com tempo e quer explorar Floripa? Aproveite e dê uma olhada no artigo da Python Brasil sobre as <a href="https://blog.pythonbrasil.org.br/dicas-da-cidade-florianopolis.html#article">dicas da cidade</a>, diversos pontos turísticos, praias, restaurantes e baladas pra você conhecer ;) 
+              Descrição da Cidade
             </p>
           </article>
           <article class="about__article--right">
@@ -49,7 +45,7 @@ ${ require('templates/partials/header.html') }
             <p class="about__article__body">
               A conferência Python Sul é um evento regional da linguagem de programação Python, reunindo as comunidades do Rio Grande do Sul, Santa Catarina e Paraná.
               É um evento recente, sendo que a primeira edição foi realizada em 2017, e será anualmente realizada em uma cidade selecionado em um dos estados da região.
-              No ano de 2018, iremos realizar a segunda edição da Python Sul em Florianópolis, SC com o objetivo de promover a comunidade local e proporcionar um evento para a comunidade sul do Brasil, uma vez que a Python Brasil irá ocorrer em Natal/RN.
+              No ano de 2019, iremos realizar a terceira edição da Python Sul em Curitiba, PR com o objetivo de promover a comunidade local e proporcionar um evento para a comunidade sul do Brasil.
             </p>
           </article>
         </div>
@@ -67,149 +63,33 @@ ${ require('templates/partials/header.html') }
             </div>
           </header>
           <section class="keynotes__list">
-
-            <article class="keynote__summary keynote-margin-spacer">
+            <!-- <article class="keynote__summary keynote-margin-spacer">
               <div class="keynote__summary__body">
                 <header class="keynote__summary__title">
-                  Danilo “Mawkee” Martins
+                  Keynoter Name
                   <div>
-                    <a target="_blank" href="https://github.com/mawkee"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://twitter.com/mawkee"><i class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/mawkee"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/example"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://twitter.com/example"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/example"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://medium.com/@example"><i class="fas fa-link"></i></a>
                   </div>
 
                 </header>
                 <p class="keynote__summary__text">
-                  Desenvolvedor backend com background em telecomunicações,
-                  Danilo (também conhecido por Mawkee) é um entusiasta de
-                  tecnologias livres, aficcionado em programação, e nerd de
-                  sexto dan. Atualmente trabalha na Crave Food Services,
-                  startup no ramo de alimentações.
-
+                  Descrição do Keynoter
                 </p>
               </div>
               <div class="keynote__summary__photo">
-                <img class="keynote-img-fluid" src="${ require('img/mawkee.jpg') }" alt="Mawkee">
+                <img class="keynote-img-fluid" src="${ require('img/nicolle.jpg') }" alt="Keynoter Name">
 
               </div>
-            </article>
+            </article> -->
 
-            <article class="keynote__summary keynote-margin-spacer">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-                  Nicolle Cysneiros
-                  <div>
-                    <a target="_blank" href="https://github.com/nicysneiros"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://twitter.com/nicysneiros"><i class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/nicollecysneiros"><i class="fab fa-linkedin"></i></a>
-                    <a target="_blank" href="https://medium.com/@nicolle.cysneiros"><i class="fas fa-link"></i></a>
-                  </div>
-
-                </header>
-                <p class="keynote__summary__text">
-                  Desenvolvedora fullstack @ Labcodes, trabalha principalmente
-                  com Python e Javascript. Faz parte do Grupo de Usuários
-                  Python de Pernambuco (PUG-PE) e do PyLadies Recife, é
-                  feminista e acredita na inclusão e empoderamento feminino
-                  através da tecnologia.
-
-                </p>
-              </div>
-              <div class="keynote__summary__photo">
-                <img class="keynote-img-fluid" src="${ require('img/nicolle.jpg') }" alt="Nicolle Cysneiros">
-
-              </div>
-            </article>
-
-            <article class="keynote__summary keynote-margin-spacer">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-                  Renzo Nuccitelli
-                  <div>
-                    <a target="_blank" href="https://github.com/renzon"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/renzonuccitelli"><i class="fab fa-linkedin"></i></a>
-                    <a target="_blank" href="https://blog.renzo.pro.br/"><i class="fas fa-link"></i></a>
-                  </div>
-
-                </header>
-                <p class="keynote__summary__text">
-                  Engenheiro de Computação formado pelo ITA. Especialista em
-                  programação web no Google App Engine, usa Python desde 2009.
-                  Foi Diretor de Tecnologia na startup de educação QMagico,
-                  Apaixonado por dar aulas, é professor da Fatec onde ministra
-                  as matérias de "Orientação a Objetos" e "Aplicações para
-                  Internet Utilizando Banco de Dados". Já palestrou em eventos
-                  como Pycon US, Google Developer Bus, DevFest, Rupy e Python
-                  Brasil. Escreve sobre tecnologia em seu blog.renzo.pro.br.
-                  Atualmente é Engenheiro de Qualidade na Red Hat.
-
-              </div>
-              <div class="keynote__summary__photo">
-                <img class="keynote-img-fluid" src="${ require('img/renzo.png') }" alt="Renzo Nuccitelli">
-              </div>
-            </article>
-
-            <article class="keynote__summary keynote-margin-spacer">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-                  Lais Varejão
-                  <div>
-                    <a target="_blank" href="https://twitter.com/laisvarejao"><i class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://github.com/laisvarejao"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://laisvarejao.github.io/"><i class="fas fa-link"></i></a>
-                  </div>
-
-                </header>
-                <p class="keynote__summary__text">
-                  Olindense, vislumbra um futuro com mais mulheres na computação.
-                  Organizadora do Django Girls Recife. Alumna do Recurse Center,
-                  um retiro para programadores em Nova York. Engenheira de
-                  software por formação e entusiasta de Design. Atualmente é
-                  desenvolvedora full-stack e gerente de projetos na Vinta
-                  Software.
-
-                </p>
-              </div>
-              <div class="keynote__summary__photo">
-                <img class="keynote-img-fluid" src="${ require('img/lais_varejao.jpg') }" alt="Lais Varejão">
-
-              </div>
-            </article>
-
-            <article class="keynote__summary keynote-margin-spacer">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-                  Filipe Fernandes
-                  <div>
-                    <a target="_blank" href="https://twitter.com/ocefpaf"><i class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://github.com/ocefpaf"><i class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://ocefpaf.github.io/homepage/"><i class="fas fa-link"></i></a>
-                  </div>
-
-                </header>
-                <p class="keynote__summary__text">
-                  Oceanógrafo Físico por treino, programador por acaso, educador
-                  por paixão Filipe trabalha para o U.S. Integrated Ocean Observing
-                  System (IOOS), uma força tarefa da NOAA que visa integrar
-                  pessoas e tecnologias para melhor desenvolver ferramentas de
-                  observação e modelagem oceânica, onde Python, R, e várias
-                  tecnologias de data server são centrais para seu sucesso. Em
-                  seu tempo livre Filipe se "diverte" distribuindo pacotes
-                  binários pelo conda-forge, e ensinado boas práticas de computação
-                  científica como instrutor do Software Carpentry.
-
-                </p>
-              </div>
-              <div class="keynote__summary__photo">
-                <img class="keynote-img-fluid" src="${ require('img/filipe_fernandes.png') }" alt="Filipe Fernandes">
-
-              </div>
-            </article>
           </section>
         </div>
       </div>
     </section>
-    <section class="schedule-wrapper">
+    <!-- <section class="schedule-wrapper">
       <a id="schedule" class="anchor" aria-hidden="true"></a>
       <div class="schedule-container">
         <div class="schedule">
@@ -223,13 +103,13 @@ ${ require('templates/partials/header.html') }
           <div class="schedule-body">
             <div class="btn-group-lg" role="group" aria-label="Selecione o dia">
               <button type="button" class="btn btn-primary tablink" onclick="switchToTab(event, 'day01')">
-                Dia 06/04
+                Dia 23/07
               </button>
               <button type="button" class="btn btn-primary tablink" onclick="switchToTab(event, 'day02')">
-                Dia 07/04
+                Dia 24/07
               </button>
               <button type="button" class="btn btn-primary tablink" onclick="switchToTab(event, 'day03')">
-                Dia 08/04
+                Dia 25/07
               </button>
             </div>
 
@@ -240,7 +120,27 @@ ${ require('templates/partials/header.html') }
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    <section class="call4papers-wrapper">
+        <a id="call4papers" class="anchor" aria-hidden="true"></a>
+        <div class="call4papers-container">
+          <div class="call4papers">
+            <header class="section-header-wrapper">
+              <div class="section-header">
+                <h1 class="section-title--left">
+                  Chamada de trabalhos
+                </h1>
+              </div>
+            </header>
+            <div class="call4papers__body">
+              Queremos você palestrando no nosso evento! Envie sua
+              <a href="https://goo.gl/xN5XJc" target="_blank">Palestra</a>
+              ou <a href="https://goo.gl/9AHL7F" target="_blank">Tutorial</a>
+              até o dia 28 de Fevereiro!
+            </div>
+          </div>
+        </div>
+      </section>
     <section class="location-wrapper">
       <a id="location" class="anchor" aria-hidden="true"></a>
       <div class="location-container">
@@ -256,35 +156,19 @@ ${ require('templates/partials/header.html') }
             <article class="location__info__article">
               <header class="article__header">
                 <h1 class="article__header__title">
-                  Palestras e Keynotes - Softplan
+                  Unicuritiba
                 </h1>
                 <p class="article__header__subtitle">
-                  Sapiens Parque - Av. Luiz Boiteux Piazza, 1302 - Canasvieiras, Florianópolis - SC
+                    Câmpus Milton Vianna Filho: R. Chile, 1.678 - Rebouças, CEP 80220-181
                 </p>
               </header>
             </article>
-            <div class="softplan-banner">
-              <img class="img-fluid" src="${ require('img/softplan.jpg') }" alt="Fachada da Softplan">
-              <a class="softplan-website" target="_blank" href="https://www.softplan.com.br/">
-                https://www.softplan.com.br/
+            <div class="unicuritiba-banner">
+              <img class="img-fluid" src="${ require('img/unicuritiba.jpg') }" alt="Fachada da Unicuritiba">
+              <a class="unicuritiba-website" target="_blank" href="https://www.unicuritiba.edu.br">
+                https://www.unicuritiba.edu.br
               </a>
             </div>
-            <div class="cesusc-banner location-margin-spacer">
-              <img class="img-fluid" src="${ require('img/campus_cesusc.jpg') }" alt="Campus do Cesusc">
-              <a class="cesusc-website" target="_blank" href="https://www.cesusc.edu.br/">
-                https://www.cesusc.edu.br/
-              </a>
-            </div>
-            <article class="location__info__article location-margin-spacer">
-              <header class="article__header">
-                <h1 class="article__header__title">
-                  Tutoriais - CESUSC
-                </h1>
-                <p class="article__header__subtitle">
-                  Rod. SC-401, 9301 - Santo Antonio de Lisboa, Florianópolis - SC
-                </p>
-              </header>
-            </article>
           </div>
         </div>
       </div>
@@ -296,32 +180,21 @@ ${ require('templates/partials/header.html') }
           <header class="section-header-wrapper">
             <div class="section-header">
               <h1 class="section-title--left">
-                MAPAS DO EVENTO
+                MAPA DO EVENTO
               </h1>
             </div>
           </header>
           <article class="location__info__article">
             <header class="article__header">
               <h1 class="article__header__title">
-                Palestras e Keynotes - Softplan
+                Unicuritiba
               </h1>
             </header>
           </article>
-          <div class="softplan-banner">
+          <!-- <div class="softplan-banner">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113183.64191308165!2d-48.57500686133279!3d-27.562857760221057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527389201476aad%3A0x5dc5525817a364e!2sSoftplan+Planning+and+Systems!5e0!3m2!1sen!2sbr!4v1520096553758"
               width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div class="cesusc-banner location-margin-spacer">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.007531600001!2d-48.51678368438558!3d-27.500141224583423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527468b52090801%3A0xb067ed420bbae02b!2sFaculdade+CESUSC!5e0!3m2!1sen!2sbr!4v1520096827828"
-              width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <article class="location__info__article location-margin-spacer">
-            <header class="article__header">
-              <h1 class="article__header__title">
-                Tutoriais - CESUSC
-              </h1>
-            </header>
-          </article>
+          </div> -->
         </div>
       </div>
     </section>
@@ -341,15 +214,9 @@ ${ require('templates/partials/header.html') }
               OURO
             </h2>
             <ul class="sponsors__list">
-              <li class="sponsor">
+              <!-- <li class="sponsor">
                 <a href="https://www.esss.co/en/" target="_blank"><img class="img-fluid" src="${ require('img/logo_esss.png') }" alt="ESSS"></a>
-              </li>
-              <li class="sponsor">
-                <a href="https://loadsmart.com/" target="_blank"><img class="img-fluid" src="${ require('img/logo_loadsmart.png') }" alt="Loadsmart"></a>
-              </li>
-              <li class="sponsor">
-                <a href="https://www.python.org/psf/" target="_blank"><img class="img-fluid" src="${ require('img/logo_psf.png') }" alt="Python Software Foundation"></a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="sponsors__silver" id="silver">
@@ -357,13 +224,9 @@ ${ require('templates/partials/header.html') }
               PRATA
             </h2>
             <ul class="sponsors__list">
-              <li class="sponsor">
+              <!-- <li class="sponsor">
                 <a href="http://www.labcodes.com.br/" target="_blank"><img class="img-fluid" src="${ require('img/logo_labcodes.png') }" alt="Labcodes"></a>
-              </li>
-
-              <li class="sponsor">
-                <a href="https://www.vinta.com.br/" target="_blank"><img class="img-fluid" src="${ require('img/logo_vinta.png') }" alt="Vinta"></a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="sponsors__bronze" id="bronze">
@@ -371,16 +234,11 @@ ${ require('templates/partials/header.html') }
               BRONZE
             </h2>
             <ul class="sponsors__list">
-              <li class="sponsor">
+              <!-- <li class="sponsor">
                 <a href="http://www.novafibratelecom.com.br/" target="_blank">
                   <img class="img-fluid" src="${ require('img/nova_fibra.png') }" alt="Nova Fibra">
                 </a>
-              </li>
-              <li class="sponsor">
-                <a href="https://www.geekhunter.com.br/" target="_blank">
-                  <img class="img-fluid" src="${ require('img/logo_geekhunter.png') }" alt="geekhunter">
-                </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="sponsors__support">
@@ -390,7 +248,7 @@ ${ require('templates/partials/header.html') }
             <ul class="sponsors__list">
               <li class="sponsor">
                 <a href="https://www.softplan.com.br/" target="_blank">
-                  <img class="img-fluid" src="${ require('img/logo_softplan.png') }" alt="SOFTPLAN">
+                  <img class="img-fluid" src="${ require('img/logo_unicuritiba.png') }" alt="Unicuritiba">
                 </a>
               </li>
               <li class="sponsor">
@@ -398,26 +256,13 @@ ${ require('templates/partials/header.html') }
                   <img class="img-fluid" src="${ require('img/logo_apyb.png') }" alt="APYB - Associação Python Brasil">
                 </a>
               </li>
-              <li class="sponsor">
-                <a href="http://byne.com.br/" target="_blank">
-                  <img class="img-fluid" src="${ require('img/logo_byne.png') }" alt="Byne">
-                </a>
-              </li>
-              <li class="sponsor">
-                <a href="http://www.cesusc.edu.br/" target="_blank">
-                  <img class="img-fluid" src="${ require('img/logo_cesusc.png') }" alt="Faculdade CESUSC">
-                </a>
-              </li>
             </ul>
           </div>
           <div class="sponsors__call-to-action">
             <h2>QUERO PATROCINAR</h2>
-            <p><a class="sponsors__call-to-action__links" href="https://docs.google.com/presentation/d/1HBfvW7qiGIAub9-v9DlkVnE-QRXXS5Zesi85hg77JMs/htmlpresent" target="_blank">Proposta de Patrocínio</a></p>
-            <p><a class="sponsors__call-to-action__links" href="https://docs.google.com/presentation/d/1Nc_03WJsKGLUpcB5J4-2dqSFMNw43Scy4CMVJjTFcM8/htmlpresent" target="_blank">Sponsorship Proposal</a></p>
+            <p><a class="sponsors__call-to-action__links" href="#" target="_blank">Proposta de Patrocínio</a></p>
+            <p><a class="sponsors__call-to-action__links" href="https://docs.google.com/presentation/d/1DvHw4tqiKxQYebA8cqEVBG5IiUi9h0jaQFX4IcwfPRA/edit#slide=id.g288712c117_1_6" target="_blank">Sponsorship Proposal</a></p>
             <p>Ou mande um email para <a href="mailto:pythonsul@gmail.com">pythonsul@gmail.com</a></p>
-            <!-- a href="/quero-patrocinar" id="beASponsor" class="call-to-sponsor pybr-button-large--light">
-              QUERO PATROCINAR
-            </a -->
           </div>
         </div>
       </div>
